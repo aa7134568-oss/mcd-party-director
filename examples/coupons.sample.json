@@ -1,0 +1,9 @@
+{
+  "_说明": "结构示例：由 query-my-coupons 返回整理而来。value=抵扣金额（元），minSpend=使用门槛，stackable=是否可与其他券叠加。真实使用时请用 mcp_client.py call query-my-coupons --out coupons.json 导出。",
+  "coupons": [
+    {"name": "满50减8券", "value": 8.0, "minSpend": 50, "stackable": true},
+    {"name": "满100减20券", "value": 20.0, "minSpend": 100, "stackable": true},
+    {"name": "薯条买一赠一", "value": 12.0, "minSpend": 0, "stackable": false},
+    {"name": "生日专享15元", "value": 15.0, "minSpend": 80, "stackable": false}
+  ]
+}

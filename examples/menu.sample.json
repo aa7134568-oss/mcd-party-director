@@ -1,0 +1,22 @@
+{
+  "_说明": "结构示例：由 query-meals 返回整理而来。name=餐品名，price=单价（元），category=分类，code=餐品编码。真实使用时请用 mcp_client.py call query-meals --out menu.json 导出。",
+  "items": [
+    {"name": "巨无霸", "price": 25.0, "category": "主食", "code": "M001"},
+    {"name": "麦香鸡", "price": 15.0, "category": "主食", "code": "M002"},
+    {"name": "板烧鸡腿堡", "price": 22.0, "category": "主食", "code": "M003"},
+    {"name": "麦辣鸡腿堡", "price": 21.0, "category": "主食", "code": "M004"},
+    {"name": "吉士汉堡", "price": 12.0, "category": "主食", "code": "M005"},
+    {"name": "麦乐鸡（5块）", "price": 13.0, "category": "小食", "code": "S001"},
+    {"name": "麦乐鸡（10块）", "price": 23.0, "category": "小食", "code": "S002"},
+    {"name": "大薯条", "price": 12.0, "category": "小食", "code": "S003"},
+    {"name": "中薯条", "price": 10.0, "category": "小食", "code": "S004"},
+    {"name": "香芋派", "price": 8.0, "category": "甜品", "code": "D001"},
+    {"name": "菠萝派", "price": 8.0, "category": "甜品", "code": "D002"},
+    {"name": "麦旋风", "price": 9.0, "category": "甜品", "code": "D003"},
+    {"name": "新地", "price": 7.0, "category": "甜品", "code": "D004"},
+    {"name": "可乐（中）", "price": 8.0, "category": "饮品", "code": "B001"},
+    {"name": "雪碧（中）", "price": 8.0, "category": "饮品", "code": "B002"},
+    {"name": "牛奶", "price": 7.0, "category": "饮品", "code": "B003"},
+    {"name": "美式咖啡", "price": 12.0, "category": "饮品", "code": "B004"}
+  ]
+}
