@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" font-family="Segoe UI, PingFang SC, Microsoft YaHei, Helvetica Neue, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F1117"/>
+      <stop offset="55%" stop-color="#161922"/>
+      <stop offset="100%" stop-color="#1B1420"/>
+    </linearGradient>
+    <radialGradient id="glowY" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFC72C" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFC72C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DA291C" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#DA291C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD75E"/>
+      <stop offset="100%" stop-color="#F0A81E"/>
+    </linearGradient>
+    <linearGradient id="clapBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFC72C"/>
+      <stop offset="100%" stop-color="#F5A623"/>
+    </linearGradient>
+    <clipPath id="slateFace">
+      <rect x="-146" y="-64" width="292" height="164" rx="18"/>
+    </clipPath>
+    <clipPath id="artBand">
+      <rect x="0" y="72" width="1280" height="316"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <ellipse cx="640" cy="238" rx="430" ry="230" fill="url(#glowY)"/>
+  <ellipse cx="1168" cy="96" rx="270" ry="175" fill="url(#glowR)"/>
+
+  <g stroke="#FFC72C" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 130 H1280 M0 260 H1280 M0 390 H1280 M0 520 H1280"/>
+    <path d="M160 0 V640 M320 0 V640 M480 0 V640 M640 0 V640 M800 0 V640 M960 0 V640 M1120 0 V640"/>
+  </g>
+
+  <!-- ============ 顶部标签 ============ -->
+  <text x="640" y="46" fill="#FFC72C" font-size="19" font-weight="600" letter-spacing="5" opacity="0.9" text-anchor="middle">
+    2026 麦当劳程序员创意开发大赛 · 参赛作品
+  </text>
+
+  <!-- ============ 图形带（限定在 y 72~388 内） ============ -->
+  <g clip-path="url(#artBand)">
+    <!-- 左侧气球 -->
+    <g transform="translate(126,160) scale(0.86)">
+      <path d="M26 62 C24 92, 20 118, 30 148" stroke="#4E5464" stroke-width="1.6" fill="none"/>
+      <path d="M58 66 C60 98, 64 122, 54 152" stroke="#4E5464" stroke-width="1.6" fill="none"/>
+      <path d="M88 60 C94 90, 98 116, 86 146" stroke="#4E5464" stroke-width="1.6" fill="none"/>
+      <ellipse cx="26" cy="30" rx="27" ry="32" fill="#DA291C"/>
+      <path d="M22 8 C18 14, 16 20, 17 26" stroke="#FF8A80" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="62" cy="34" rx="25" ry="30" fill="#FFC72C"/>
+      <path d="M58 14 C54 20, 53 25, 54 30" stroke="#FFF3C4" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+      <ellipse cx="94" cy="26" rx="23" ry="27" fill="#FFF8E7"/>
+      <path d="M90 8 C87 13, 86 18, 87 22" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.85"/>
+    </g>
+
+    <!-- 左侧彩带 -->
+    <g opacity="0.92">
+      <rect x="248" y="300" width="11" height="11" rx="2" fill="#FFC72C" transform="rotate(22 253 305)"/>
+      <rect x="292" y="352" width="8" height="8" rx="2" fill="#DA291C" transform="rotate(-18 296 356)"/>
+      <circle cx="330" cy="316" r="4" fill="#FFF8E7" opacity="0.75"/>
+      <circle cx="216" cy="358" r="3.5" fill="#FFC72C" opacity="0.7"/>
+      <path d="M276 372 l13 4.5 -13 4.5 -4.5 13 -4.5 -13 -13 -4.5 13 -4.5 4.5 -13z" fill="#DA291C" opacity="0.88"/>
+    </g>
+
+    <!-- 中央：打板器 + 汉堡 -->
+    <g transform="translate(640,236) scale(0.92)">
+      <ellipse cx="0" cy="6" rx="176" ry="150" fill="#FFC72C" opacity="0.07"/>
+
+      <!-- 打板条纹条 -->
+      <g transform="rotate(-19)">
+        <rect x="-146" y="-140" width="292" height="44" rx="9" fill="url(#clapBar)"/>
+        <g fill="#161922" opacity="0.90">
+          <rect x="-146" y="-140" width="28" height="44" rx="6"/>
+          <rect x="-81" y="-140" width="28" height="44" rx="6"/>
+          <rect x="-16" y="-140" width="28" height="44" rx="6"/>
+          <rect x="49" y="-140" width="28" height="44" rx="6"/>
+          <rect x="114" y="-140" width="32" height="44" rx="6"/>
+        </g>
+        <rect x="-146" y="-140" width="292" height="44" rx="9" fill="none" stroke="#FFF8E7" stroke-opacity="0.30" stroke-width="2"/>
+      </g>
+
+      <!-- 板体 -->
+      <g transform="translate(0,-6)">
+        <rect x="-142" y="-60" width="284" height="152" rx="17" fill="#F7F3E8"/>
+        <g clip-path="url(#slateFace)" transform="translate(-4,4)">
+          <g transform="rotate(-32)">
+            <rect x="-210" y="-220" width="50" height="440" fill="#DA291C"/>
+            <rect x="-110" y="-220" width="50" height="440" fill="#FFC72C"/>
+            <rect x="-10" y="-220" width="50" height="440" fill="#DA291C"/>
+            <rect x="90" y="-220" width="50" height="440" fill="#FFC72C"/>
+          </g>
+          <rect x="-160" y="10" width="320" height="100" fill="#F7F3E8"/>
+        </g>
+        <rect x="-142" y="-60" width="284" height="152" rx="17" fill="none" stroke="#FFC72C" stroke-width="5"/>
+      </g>
+
+      <!-- 汉堡 -->
+      <g transform="translate(0,68) scale(0.92)">
+        <path d="M-116 30 C-116 -14, -64 -44, 0 -44 C64 -44, 116 -14, 116 30 Z" fill="url(#bunTop)"/>
+        <g fill="#FFF8E7" opacity="0.85">
+          <ellipse cx="-62" cy="-2" rx="7" ry="4.5" transform="rotate(-18 -62 -2)"/>
+          <ellipse cx="-24" cy="-22" rx="7.5" ry="5" transform="rotate(-8 -24 -22)"/>
+          <ellipse cx="18" cy="-26" rx="7" ry="4.5" transform="rotate(6 18 -26)"/>
+          <ellipse cx="58" cy="-8" rx="7" ry="4.5" transform="rotate(16 58 -8)"/>
+          <ellipse cx="-96" cy="12" rx="6" ry="4" transform="rotate(-24 -96 12)"/>
+        </g>
+        <path d="M-120 32 q22 -14 44 -2 q22 12 44 0 q22 -12 44 0 q22 12 44 2 q20 -10 64 -2 v14 H-120 Z" fill="#3E9B4F"/>
+        <path d="M-112 44 h224 l-26 20 -28 -12 -30 14 -28 -14 -28 12 -28 -12 -30 14 Z" fill="#FFC72C"/>
+        <rect x="-112" y="58" width="224" height="30" rx="15" fill="#8C4B2A"/>
+        <rect x="-112" y="58" width="224" height="12" rx="6" fill="#A05A33" opacity="0.65"/>
+        <path d="M-112 88 h224 a26 26 0 0 1 -26 26 h-172 a26 26 0 0 1 -26 -26 Z" fill="#E8A33D"/>
+      </g>
+    </g>
+
+    <!-- 右侧甘特图 -->
+    <g transform="translate(1022,148) scale(0.88)" opacity="0.95">
+      <text x="0" y="-24" fill="#FFC72C" font-size="18" font-weight="700" letter-spacing="3" opacity="0.82">WBS 甘特</text>
+      <g stroke="#FFC72C" stroke-opacity="0.14" stroke-width="1">
+        <path d="M0 0 H212 M0 34 H212 M0 68 H212 M0 102 H212 M0 136 H212"/>
+      </g>
+      <g stroke="#DA291C" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="5 5">
+        <path d="M52 -12 V152 M120 -12 V152"/>
+      </g>
+      <rect x="6" y="9" width="98" height="15" rx="7.5" fill="#FFC72C"/>
+      <rect x="58" y="43" width="112" height="15" rx="7.5" fill="#DA291C"/>
+      <rect x="34" y="77" width="76" height="15" rx="7.5" fill="#FFF8E7"/>
+      <rect x="82" y="111" width="104" height="15" rx="7.5" fill="#FFC72C"/>
+      <rect x="16" y="145" width="60" height="15" rx="7.5" fill="#DA291C" opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- ============ 文字区（y 400 起） ============ -->
+  <g text-anchor="middle">
+    <text x="640" y="474" fill="#FFF8E7" font-size="62" font-weight="800" letter-spacing="3">
+      麦麦派对总导演
+    </text>
+    <text x="640" y="520" fill="#FFC72C" font-size="25" font-weight="600" letter-spacing="6.5" opacity="0.95">
+      McPARTY DIRECTOR
+    </text>
+    <text x="640" y="562" fill="#8891A3" font-size="17.5" font-weight="500" letter-spacing="0.8">
+      把一场麦当劳派对，当成一个项目来交付
+    </text>
+  </g>
+
+  <g text-anchor="middle">
+    <g transform="translate(640,598)">
+      <rect x="-286" y="-6" width="9" height="9" rx="2" fill="#FFC72C" transform="rotate(45 -281.5 -1.5)"/>
+      <g fill="#FFC72C" font-size="15" font-weight="600" letter-spacing="1">
+        <text x="-142" y="6">WBS 分解</text>
+        <text x="0" y="6">预算精算</text>
+        <text x="142" y="6">现场 Runbook</text>
+        <text x="284" y="6">风险登记</text>
+      </g>
+      <g fill="#FFC72C" opacity="0.45">
+        <circle cx="-71" cy="1" r="2.6"/>
+        <circle cx="71" cy="1" r="2.6"/>
+        <circle cx="213" cy="1" r="2.6"/>
+      </g>
+    </g>
+  </g>
+
+  <text x="34" y="626" fill="#5A6172" font-size="13.5" font-weight="500" letter-spacing="0.7" opacity="0.8">McDonald's China MCP</text>
+  <text x="1246" y="626" fill="#5A6172" font-size="13.5" font-weight="500" letter-spacing="0.7" text-anchor="end" opacity="0.8">Built with WorkBuddy</text>
+</svg>

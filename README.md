@@ -1,11 +1,20 @@
+<div align="center">
+
+<img src="./assets/banner.png" alt="麦麦派对总导演 McParty Director" width="100%">
+
 # 🍔 麦麦派对总导演 · McParty Director
 
-> 把一场麦当劳派对，当成一个项目来交付。
+**把一场麦当劳派对，当成一个项目来交付。**
 
-[![MCP](https://img.shields.io/badge/MCP-McDonald's%20China-FFC72C?logo=mcDonalds)](https://github.com/M-China/mcd-mcp-server)
+WBS 分解 · 选址排期 · 预算精算 · 现场 Runbook · 风险登记 · 一键下单
+
+[![MCP](https://img.shields.io/badge/MCP-McDonald's%20China-FFC72C?logo=mcdonalds&logoColor=black)](https://github.com/M-China/mcd-mcp-server)
 [![Built with WorkBuddy](https://img.shields.io/badge/Built%20with-WorkBuddy-0052D9)](https://www.workbuddy.cn)
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org)
+[![Contest](https://img.shields.io/badge/2026%20麦当劳程序员创意开发大赛-参赛作品-DA291C)](https://github.com/M-China/mcd-developer-innovation-challenge)
 [![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+
+</div>
 
 一个基于 **麦当劳中国官方 MCP** 的创意 Skill：你说一句「给孩子办个生日会」，
 它交付的是一份**能直接落地的项目包**——WBS 分解、选址排期、预算精算、现场 Runbook、风险登记表，
@@ -152,6 +161,8 @@ mcd-party-director/
 ├── MCP_INTEGRATION.md          # MCP 接入与调用链路说明
 ├── mcp-config.example.json     # 脱敏配置（仅占位符）
 ├── workbuddy.md                # WorkBuddy 开发上下文（专项奖励）
+├── assets/
+│   └── banner.png / banner.svg # 项目封面（矢量源 + 位图）
 ├── scripts/
 │   ├── party_planner.py        # 人数配比 / 券组合枚举 / 三档方案
 │   ├── runbook.py              # 时间轴 / 物料 / 风险 / WBS
